@@ -9,7 +9,7 @@ Summary:	Time::Piece::MySQL - Adds MySQL-specific methods to Time::Piece
 Summary(pl.UTF-8):	Time::Piece::MySQL - dodaje specyficzne metody MySQL do Time::Piece
 Name:		perl-Time-Piece-MySQL
 Version:	0.06
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/K/KA/KASEI/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -51,5 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Time/Piece
 %{perl_vendorlib}/Time/Piece/*.pm
 %{_mandir}/man3/*
