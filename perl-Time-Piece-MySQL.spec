@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Time
 %define	pnam	Piece-MySQL
 Summary:	Time::Piece::MySQL - Adds MySQL-specific methods to Time::Piece
